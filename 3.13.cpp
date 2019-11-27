@@ -44,8 +44,8 @@ private:
 
 main() {
 
-   Account account1( "Usama1", 500 );
-   Account account2( "Usama2", 100 );
+   Account account1( "Najam1", 500 );
+   Account account2( "Najam2", 100 );
    cout<<"\tWelcome to MCB "<<endl;
    cout << "Account 1 "<<endl<<"Name: " << account1.getName() <<endl<< "balance: "<< account1.getBalance();
    cout << "\n\nAccount 2 "<<endl<<"Name: " << account2.getName() <<endl<< "balance: "<< account2.getBalance();
